@@ -1,0 +1,26 @@
+.product{
+    width: 300px;
+    height: 540px;
+    border: 2px solid #989696;
+    border-radius: 8px;
+    position: relative;
+}
+.product img{
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 8px;
+}
+.card-body{
+    padding: 15px;
+}
+.product button{
+    background-color: burlywood;
+    border: none;
+    border-radius:0 0 7px 7px;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
