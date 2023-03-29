@@ -15,7 +15,7 @@
     padding: 15px;
 }
 .product button{
-    background-color: burlywood;
+    background-color: #f1bd79;
     border: none;
     border-radius:0 0 7px 7px;
     width: 100%;
@@ -23,4 +23,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    cursor: pointer;
+
+}
+.product button:hover{
+    background-color: #ffbb47;
 }
