@@ -1,9 +1,8 @@
 .product{
     width: 300px;
-    height: 540px;
+    height: 460px;
     border: 2px solid #989696;
-    border-radius: 8px;
-    position: relative;
+    border-radius:8px 8px 0 0;
 }
 .product img{
     width: 286px;
@@ -11,21 +10,33 @@
     margin: 7px;
     border-radius: 8px;
 }
-.card-body{
-    padding: 15px;
+.card-body h3{
+    padding:0 15px;
+    margin: 0;
+
 }
-.product button{
+.card-body h4{
+    padding:0 15px;
+    margin:10px 0 40px ;
+
+}
+.card-body p{
+    padding:0 15px;
+    margin: 0;
+
+}
+.btn{
     background-color: #f1bd79;
-    border: none;
+    border-top: none;
+    border-bottom: 2px solid #989696;
+    border-right: 2px solid #989696;
+    border-left: 2px solid #989696;
     border-radius:0 0 7px 7px;
     width: 100%;
     padding: 15px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     cursor: pointer;
 
 }
-.product button:hover{
+.btn:hover{
     background-color: #ffbb47;
 }
